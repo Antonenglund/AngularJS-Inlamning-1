@@ -1,0 +1,23 @@
+.loggotype{
+    width: 150px;
+    height: 150px;
+}
+
+
+.t-color-navbar{
+    color: #AC6A30 !important;
+    font-size: 1.3rem;
+}
+
+
+.bg-gold{
+    background-color: #201E1E !important;
+}
+.hero-header{
+    height: 600px;
+    width: 1440px;
+}
+.position-hero-text{
+    text-align: left;
+    padding-bottom: 10rem;
+}
