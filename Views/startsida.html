@@ -1,10 +1,10 @@
     
     <div ng-repeat="item in startsida">
-        <img class="hero-header" src="/Image/HEADER 2 - DARK.jpg" alt="">
+        <img ng-src="image/{{ item.image }}" alt=""class="hero-header">
         <div class="carousel-caption position-hero-text">
-          <h1>Ekens sportfiskeguide</h1>
-          <p>Fiska är som att gå i terapi</p>
-          <button class="btn btn-primary">Boka nu</button>
+          <h1> {{ item.title }} </h1>
+          <p>{{ item.text }}</p>
+          <button class="btn btn-mystyle">Boka nu</button>
     
       </div>
 
